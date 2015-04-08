@@ -1,0 +1,42 @@
+* {
+	outline: 1px solid red;
+	margin: 0;
+}
+
+html, .body {
+	background: rgb(216, 216, 216);
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	background: rgb(68, 68, 68);
+	width: 100%;
+	height: 10%;
+	position: absolute;
+}
+
+/*.left-panel {
+	background: rgb(216, 216, 216);
+	width: 15%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}*/
+
+.main-section {
+	background: rgb(239, 239, 239);
+	width: 70%;
+	height: 94%;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+.footer {	
+	background: rgb(68, 68, 68);
+	width: 70%;
+	height: 5%;
+	margin-left: 15%;
+	margin-right: auto;
+	display: inline-block;
+}
